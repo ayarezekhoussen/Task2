@@ -1,0 +1,35 @@
+.Card2
+{
+    position: relative;
+}
+.Card2-Content1
+{
+    width: 320px;
+    height: 125px;
+    background-color: #ffeee9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Card2-Content1 h1
+{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f35525;
+}
+.Card2-Content1 p
+{
+    font-size: 18px;
+    font-weight: 800;
+}
+.Card2-Content2
+{
+    width: 60px;
+    height: 60px;
+    background-color: #f35525;
+    border-radius: 50%;
+    position: absolute;
+    top: -28px;
+    right: -28px;
+}

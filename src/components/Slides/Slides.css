@@ -1,0 +1,110 @@
+.HeroPage
+{
+  width: 100%;
+  height: calc( 100vh - 50px );
+  overflow: hidden;
+  position: relative;
+}
+.The-transformer1
+{
+  width: 300vw;
+  height: 100vh;
+  display: flex;
+  transform: translateX(-00vw);
+  transition: .4s;
+}
+.The-transformer2
+{
+  width: 300vw;
+  height: 100vh;
+  display: flex;
+  transform: translateX(-100vw);
+  transition: .4s;
+}
+.The-transformer3
+{
+  width: 300vw;
+  height: 100vh;
+  display: flex;
+  transform: translateX(-200vw);
+  transition: .4s;
+}
+.HeroPage .slider1
+{
+  background-color: rgb(243, 237, 237);
+  width: 100vw;
+  height: 100vh;
+}
+.HeroPage .slider2
+{
+  background-color: rgb(246, 247, 246);
+  width: 100vw;
+  height: 100vh;
+}
+.HeroPage .slider3
+{
+  background-color: rgb(244, 244, 248);
+  width: 100vw;
+  height: 100vh;
+}
+.position-bu
+{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.Slides-Address
+{
+    width: max-content;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+}
+.Slides-Canada
+{
+    color: red;
+}
+.Slides-Text
+{
+    position: absolute;
+    top: 22%;
+    left: 27%;
+}
+.Slides-Text p
+{
+    color: white;
+    font-size: 48px;
+    font-weight: 1000;
+}
+.Slides-Text span
+{
+    display: block;
+}
+.Slides-Arrows1
+{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    padding: 20px;
+    border-radius: 50%;
+}
+.Slides-Arrows2
+{
+    position: absolute;
+    top: 50%;
+    right: 90%;
+    padding: 20px;
+    border-radius: 50%;
+}
+.position-bu button
+{
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f35525 ;
+  background-color: white;
+  border-radius: 50%;
+}

@@ -1,0 +1,139 @@
+.Section6
+{
+    width: 100%;
+    position: relative;
+    margin-bottom: 750px;
+}
+.Section6 img
+{
+    width:100% ;
+}
+.Section6-Titel
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    left: 38%;
+}
+.Section6-Titel h4
+{
+    padding-left: 8px;
+    font-weight: 800;
+    color: #ee6c75;
+    border-left: 5px solid #ee6c75;
+}
+.Section6-Titel p
+{
+    color: white;
+    font-weight: 1000;
+    font-size: 40px;
+    text-align: center;
+}
+.Section6-Titel span
+{
+    display: block;
+}
+.Section6-Container1
+{
+    width: 700px;
+    height: 770px;
+    position: absolute;
+    top: 58%;
+    left: 10%;
+}
+.Section6-Map
+{
+    border: none;
+    border-radius: 12px;
+}
+.Section6-Cards
+{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.Section6-Card
+{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgb(189, 181, 181);
+    padding: 20px 10px;
+    line-height: 5px;
+}
+.Section6-Card img
+{
+    width: 60px;
+}
+.Section6-Card p
+{
+    color: #c2c1c3;
+    line-height: 50px;
+   
+}
+.Section6-Container2 
+{
+    width: 500px;
+    background-color: white;
+    height: 760px;
+    position: absolute;
+    top: 58%;
+    left: 60%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 1px rgb(189, 181, 181);
+    padding: 30px;
+}
+.Section6-Container2 label
+{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #6e6e6e;
+}
+.Section6-Container2 input
+{
+    width: 100%;
+    height: 60px;
+    border: none;
+    padding: 30px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #b9b9b9;
+    border-radius: 40px;
+    background-color: #f6f6f6;
+    
+}
+.Section6-Container2 textarea
+{
+    width: 100%;
+    height: 170px;
+    border: none;
+    padding: 30px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #b9b9b9;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+}
+.Section6-Container2 button
+{
+    width: 180px;
+    height: 60px;
+    margin: 20px auto;
+    border: none;
+    background-color: black;
+    color: rgb(230, 224, 224);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+}

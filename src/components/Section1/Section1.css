@@ -1,0 +1,207 @@
+.Section1
+{
+    width: 100%;
+    padding: 125px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Section1-images
+{
+    position: relative;
+}
+.Section1-photo
+{
+    width: 320px;
+   
+}
+.Section1-icon
+{
+    padding: 25px;
+    background-color: #f35525;
+    border-radius: 50%;
+    position: absolute;
+    top: 380px;
+    right: 265px;
+   
+}
+
+
+.Section1-Featured
+{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.Featured-Title
+{
+    padding-left: 12px;
+    padding: 5px;
+    font-weight: 800;
+    color: #ee6c75;
+    border-left: 5px solid #ee6c75;
+    line-height: 15px;
+    
+    
+}
+.Featured-Hero
+{
+    font-weight: 1000;
+    
+    font-size: 40px;
+ 
+}
+.Section1-Description
+{
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 100px 0;
+   
+   
+    
+}
+.Section1-Description-title
+{
+    color:#f35525 ;
+    margin-top: -20px;
+    padding: 20px 14px;
+   
+}
+.Section1-Description-Text1
+{
+    border-top: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+    font-size: 19px;
+    padding: 10px 14px;
+    line-height: 30px;
+  
+}
+.Section1-Description-Text1-Span1
+{
+    font-weight: 800;
+}
+
+.Section1-Description-Text2
+{
+    padding: 0 14px;
+    line-height: 85px;
+}
+.Section1-Description-Text1-Span2
+{
+    
+    color: #0d70fd;
+}
+
+
+.Specifications-Container
+{
+    width: 250px;
+    height: 550px;
+    box-shadow: 0 0 10px 1px grey;
+    border-radius: 7px;
+    padding: 30px 15px;
+  
+}
+.Specifications-Container img
+{
+    padding-right: 10px;
+}
+.Specifications-Container p
+{
+    color: #c2c1c3;
+}
+@media (max-width : 1000px)
+ {
+     .Section1
+    {
+     
+        justify-content: space-between;
+        
+    }
+    
+    .Section1-photo
+    {
+        width: 280px;
+       
+    }
+    .Section1-Featured
+    {
+        height: 300px;
+     
+    }
+
+    .Section1-Featured h1
+{
+    font-size: 20px;
+   
+}
+    .Section1-Description-Text1{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .Section1-Description-title
+{
+    color:#f35525 ;
+    margin-top: -100px;
+    padding: 0;
+   
+}
+.Section1-Description-Text2
+{
+   
+    line-height: 18px;
+}
+.Specifications-Container
+{
+    width: 200px;
+    height: 470px;
+   
+ }
+}
+ @media (max-width : 600px)
+ {
+    .Section1-Description-Text2
+    {
+       
+        line-height: 14px;
+    }
+    .Section1-Description-Text1{
+        line-height: 15px;
+        font-size: 10px;
+    }
+    .Specifications-Container
+{
+    width: 150px;
+    height: 370px;
+   
+ }
+ .Section1-Featured h1
+ {
+     font-size: 10px;
+    
+ }
+ .Section1-photo
+    {
+        width: 180px;
+       
+    }
+    .Section1-Featured
+    {
+        height: 200px;
+     
+    }
+    .Specifications-Container img
+{
+    padding-right: 0px;
+}
+   
+       
+
+   
+ }

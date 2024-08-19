@@ -1,0 +1,45 @@
+.Specifications1
+{
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 25px;
+    padding: 20px;
+    border-bottom: 1px solid #f4f4f4;
+   
+}
+.Specifications2
+{
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 25px;
+    padding: 20px;
+  
+}
+@media (max-width : 600px) {
+    .Specifications2
+{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 10px;
+    padding: 20px;
+}
+.Specifications1
+{
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 15px;
+    padding: 20px;
+    border-bottom: 1px solid #f4f4f4;
+   
+}
+
+}
